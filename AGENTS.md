@@ -7,7 +7,7 @@ Bu dosya depoda çalışan bütün yapay zekâ yardımcıları (Claude, ChatGPT/
 - Ad: **Fitne&Fesat** (yerel klasör `FitneFesat`, GitHub deposu `Fitne-Fesat`; `&` komut satırında sorun çıkardığı için).
 - Tür: gizli roller ve sosyal çıkarım (gece eylemleri, gündüz tartışma ve oylama).
 - Tema: Osmanlı.
-- Platform: mobil (telefon), dikey ekran, Unity. Yalnız gerçek oyuncular, aynı ortamda yüz yüze oynar (bot yok); telefonlar yerel ağ (LAN) üzerinden bağlanır. Oyunu uygulama kendisi yönetir, anlatıcı gerekmez.
+- Platform: mobil (telefon), Android ve iOS, dikey ekran, Unity. Yalnız gerçek oyuncular, aynı ortamda yüz yüze oynar (bot yok); telefonlar yerel ağ (LAN) üzerinden bağlanır. Oyunu uygulama kendisi yönetir, anlatıcı gerekmez.
 - Oyuncu sayısı: 6–15. Para kazanma: ücretsiz, reklamlı.
 - Roller, adlar, görseller ve metinler özgündür. Başka oyunların rol adları, karakterleri, sanatı veya metinleri kopyalanmaz; yalnız türün genel mekanikleri kullanılır.
 

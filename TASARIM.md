@@ -8,7 +8,7 @@ Durum: ilk taslak. Kaynak: yapımcının roller ve mekanikler belgesi. Kesinleş
 - Oynanış: yalnız gerçek oyuncular oynar; bot yoktur. Arkadaşlar aynı ortamda, yüz yüze oynar. Her oyuncunun kendi telefonu vardır, telefonlar yerel ağ (LAN) üzerinden bağlanır.
 - Telefon ile yüz yüze olanın ayrımı: gece eylemleri, sonuçlar ve oylama telefondan yapılır; konuşma ve tartışma yüz yüze yapılır.
 - Yönetim: oyun kendi kendini yönetir. Aşamaları, süreleri, gece çözümünü ve açıklamaları uygulama yürütür; anlatıcı ya da yönetici oyuncu gerekmez.
-- Ekran: yalnız mobil, dikey.
+- Platform: Android ve iOS. Ekran: yalnız mobil, dikey.
 - Oyuncu sayısı: 6–15.
 - Para kazanma: oyun ücretsiz, reklamlı.
 - İlke: derinlik karmaşık kurallardan değil, roller arasındaki etkileşimlerden ve oyuncuların birbirine söylediği yalanlardan gelir. Saldırı ve savunma seviyeleri, karmaşık bağışıklıklar ve ölüm sonrası saldırılar şimdilik yoktur.
