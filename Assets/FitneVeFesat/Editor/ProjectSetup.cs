@@ -53,6 +53,37 @@ namespace FitneFesat.EditorTools
             BuildWindows();
         }
 
+        const string AndroidApk = "Builds/Android/FitneFesat.apk";
+
+        // Telefona doğrudan kurulacak APK (mağaza için ileride .aab gerekecek).
+        // Komut satırından: Unity.exe -batchmode -buildTarget Android -projectPath . -executeMethod FitneFesat.EditorTools.ProjectSetup.SetupAndBuildAndroid -quit
+        [MenuItem("Fitne ve Fesat/Android APK Derle")]
+        public static void BuildAndroid()
+        {
+            PlayerSettings.SetScriptingBackend(NamedBuildTarget.Android, ScriptingImplementation.IL2CPP);
+            PlayerSettings.Android.targetArchitectures = AndroidArchitecture.ARM64;
+            EditorUserBuildSettings.buildAppBundle = false;
+            Directory.CreateDirectory(Path.GetDirectoryName(AndroidApk));
+            var options = new BuildPlayerOptions
+            {
+                scenes = new[] { ScenePath },
+                locationPathName = AndroidApk,
+                target = BuildTarget.Android,
+                targetGroup = BuildTargetGroup.Android,
+                options = BuildOptions.None
+            };
+            var report = BuildPipeline.BuildPlayer(options);
+            if (report.summary.result != BuildResult.Succeeded)
+                throw new BuildFailedException("Android derlemesi başarısız: " + report.summary.result);
+            Debug.Log($"Fitne&Fesat: Android APK hazır: {AndroidApk} ({report.summary.totalSize / (1024 * 1024)} MB)");
+        }
+
+        public static void SetupAndBuildAndroid()
+        {
+            Setup();
+            BuildAndroid();
+        }
+
         static void ConfigurePlayer()
         {
             PlayerSettings.companyName = "Fitne ve Fesat";
