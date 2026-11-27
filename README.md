@@ -6,7 +6,7 @@ Oyuncular gizli rollerle bir kasabada yaşar: geceleri roller gizlice eylem yapa
 
 ## Durum
 
-Proje başlangıç aşamasında. Unity projesi ve oyun tasarım belgesi (`TASARIM.md`) henüz yazılmadı.
+Proje başlangıç aşamasında. Oyun tasarımının ilk taslağı `TASARIM.md` içinde; Unity projesi henüz kurulmadı.
 
 ## Birlikte çalışma
 
