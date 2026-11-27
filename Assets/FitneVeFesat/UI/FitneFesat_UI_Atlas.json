@@ -1,0 +1,127 @@
+{
+  "width": 2048,
+  "height": 2048,
+  "padding": 8,
+  "sprites": [
+    {
+      "name": "ui_main_menu_frame",
+      "x": 8,
+      "y": 8,
+      "width": 1627,
+      "height": 915,
+      "unityY": 1125
+    },
+    {
+      "name": "ui_title_banner",
+      "x": 8,
+      "y": 939,
+      "width": 837,
+      "height": 260,
+      "unityY": 849
+    },
+    {
+      "name": "ui_panel_vertical",
+      "x": 8,
+      "y": 1215,
+      "width": 516,
+      "height": 714,
+      "unityY": 119
+    },
+    {
+      "name": "ui_button_wide",
+      "x": 861,
+      "y": 939,
+      "width": 690,
+      "height": 231,
+      "unityY": 878
+    },
+    {
+      "name": "ui_progress_frame",
+      "x": 8,
+      "y": 1945,
+      "width": 670,
+      "height": 85,
+      "unityY": 18
+    },
+    {
+      "name": "icon_kama",
+      "x": 1651,
+      "y": 8,
+      "width": 146,
+      "height": 392,
+      "unityY": 1648
+    },
+    {
+      "name": "icon_medicine",
+      "x": 1813,
+      "y": 8,
+      "width": 203,
+      "height": 385,
+      "unityY": 1655
+    },
+    {
+      "name": "icon_scale",
+      "x": 1651,
+      "y": 416,
+      "width": 362,
+      "height": 384,
+      "unityY": 1248
+    },
+    {
+      "name": "icon_telescope",
+      "x": 1651,
+      "y": 816,
+      "width": 374,
+      "height": 193,
+      "unityY": 1039
+    },
+    {
+      "name": "icon_basket",
+      "x": 1567,
+      "y": 1025,
+      "width": 315,
+      "height": 343,
+      "unityY": 680
+    },
+    {
+      "name": "icon_drum",
+      "x": 540,
+      "y": 1384,
+      "width": 305,
+      "height": 335,
+      "unityY": 329
+    },
+    {
+      "name": "icon_keys",
+      "x": 861,
+      "y": 1384,
+      "width": 269,
+      "height": 325,
+      "unityY": 339
+    },
+    {
+      "name": "icon_document",
+      "x": 1146,
+      "y": 1186,
+      "width": 324,
+      "height": 218,
+      "unityY": 644
+    },
+    {
+      "name": "ui_badge_shield",
+      "x": 694,
+      "y": 1735,
+      "width": 250,
+      "height": 303,
+      "unityY": 10
+    },
+    {
+      "name": "ui_button_circle",
+      "x": 960,
+      "y": 1725,
+      "width": 229,
+      "height": 238,
+      "unityY": 85
+    }
+  ]
+}
