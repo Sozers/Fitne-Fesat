@@ -8,7 +8,7 @@
   - [x] Para kazanma: ücretsiz, reklamlı
   - [x] Platform: Android ve iOS (ikisi birden)
 - [ ] Unity 6000.6.9f1 mobil projesi (2D, URP, dikey ekran)
-- [ ] `TASARIM.md`: ilk taslak yazıldı; "Açık sorular" yanıtlanınca biter
+- [x] `TASARIM.md`: oyun döngüsü, taraflar, roller, kazanma koşulları, ayrıntı kararları (ilk sürüm)
 - [ ] Ağdan bağımsız, saf C# kurallar çekirdeği ve testleri
 - [ ] Yerel ağ (LAN) katmanı: telefonların birbirini bulması, oda kurma ve katılma
 - [ ] Mobil arayüz: lobi, rol kartı, gece eylemi, sabah sonuçları, tartışma sayacı, oylama
