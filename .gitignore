@@ -54,3 +54,4 @@ desktop.ini
 # .NET test projesi
 Tests/**/bin/
 Tests/**/obj/
+!Tests/**/*.csproj
