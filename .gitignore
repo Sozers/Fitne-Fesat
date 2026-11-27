@@ -55,3 +55,6 @@ desktop.ini
 Tests/**/bin/
 Tests/**/obj/
 !Tests/**/*.csproj
+
+# Unity Android derlemesinin geçici dosyaları
+/.utmp/
