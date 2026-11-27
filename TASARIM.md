@@ -15,7 +15,7 @@ Durum: ilk sürüm. Kaynak: yapımcının roller ve mekanikler belgesi; boşlukl
 
 ## 2. Taraflar ve kazanma koşulları
 
-Oyunda 3 taraf ve 15 rol vardır: Kasaba 8, Kumpas 3, Tarafsız 4.
+Oyunda 3 taraf ve 16 rol vardır: Kasaba 9, Kumpas 3, Tarafsız 4.
 
 | Taraf | Kazanma koşulu |
 | --- | --- |
@@ -74,11 +74,21 @@ Kumpas üyeleri birbirini tanır. Grup olarak her gece yalnız bir ortak saldır
 
 **Çengi** — Kasaba, engelleme
 - Her gece bir oyuncunun dikkatini dağıtır; o oyuncu o gece yeteneğini kullanamaz.
-- Kumpas saldırısını, araştırmaları ve korumayı engelleyebilir.
-- Yamyam'ı engelleyemez: onu ziyaret ederse Yamyam tarafından öldürülür.
-- Aynı oyuncuyu üst üste iki gece engelleyemez.
-- Engellediği oyuncu engellendiğini öğrenir.
+- Kumpas saldırısını, araştırmaları, korumayı, sahte delili ve gözetlemeyi engelleyebilir. Kadı'yı engelleyemez (hapis gündüz seçilir).
+- Yamyam'ı engelleyemez: onu ziyaret ederse Yamyam tarafından öldürülür. Hapisteki Yamyam onu öldüremez.
+- Kendisi engellenemez. Kendini seçemez. Aynı oyuncuyu üst üste gecelerde de engelleyebilir.
+- Hedefini ziyaret ettiği için Gözcü onu hedefin yanında görür.
+- Engellediği oyuncu "biri seni oyaladı, yeteneğini kullanamadın" bildirimini alır.
 - Hak: sınırsız.
+
+**Müneccim** — Kasaba, ruhani
+- Gece ölülerle konuşur. Ölü yoksa (örneğin ilk gece) yalnız geceyi onaylar.
+- Konuşma yazışma değil, seçimle yapılır; böylece Müneccim'in telefon hareketi öteki gece eylemlerinden ayırt edilmez. Müneccim her gece ölülerden birini ve hazır sorulardan birini seçer; ölü, yanıtını yine seçerek verir (bir oyuncu adı, "Masum/Şüpheli" ya da bir rol).
+- Hazır sorular (başlangıç önerisi): "Seni kim öldürdü sence?", "En çok kimden şüpheleniyordun?", "Kime güveniyordun?", "Öldüğün gece ne öğrendin?".
+- Ölüler Müneccim'in kim olduğunu görmez; soruyu "Müneccim" adıyla alır. Ölü yalan söyleyebilir (örneğin ölü bir Kumpas üyesi).
+- Soru ve yanıt gece içinde verilir; Müneccim yanıtı sabah, kişisel sonuçlarla birlikte görür. Yanıt vermeyen ölü için "yanıt gelmedi" görür.
+- Kimseyi ziyaret etmez; Gözcü onu görmez. Çengi onu engellerse ya da Kadı hapsederse o gecenin yanıtı ona iletilmez.
+- Hak: sınırsız (gecede bir soru).
 
 **Ahali** — Kasaba, sivil
 - Özel yeteneği yoktur. Tartışma, çıkarım ve oylamayla Kasaba'ya yardım eder.
@@ -137,7 +147,7 @@ Araştırma yalnız iki sonuç verir; gerçek rol hiçbir zaman doğrudan öğre
 
 | Rol | Sonuç |
 | --- | --- |
-| Ağa, Kadı, Subaşı, Kabadayı, Hekim, Gözcü, Çengi, Ahali | Masum |
+| Ağa, Kadı, Subaşı, Kabadayı, Hekim, Gözcü, Çengi, Müneccim, Ahali | Masum |
 | Zorba | Masum |
 | Fedai, Müfteri | Şüpheli |
 | Derviş, Kanlı, Maskara | Masum |
@@ -167,7 +177,7 @@ Bütün oyuncular kararlarını aynı 20 saniyede verir; oyun motoru kararları 
 | 5 | Subaşı | Araştırma |
 | 6 | Zorba | Saldırı emrinin işlenmesi |
 | 7 | Fedai, Kabadayı, Yamyam, Kadı | Saldırı ve infaz |
-| 8 | Gözcü | Ziyaretlerin tespiti |
+| 8 | Gözcü, Müneccim | Ziyaretlerin tespiti; ölülerin yanıtının iletilmesi |
 | 9 | Sistem | Ölümlerin ve kişisel sonuçların açıklanması |
 
 Saldırılar aynı anda gerçekleşmiş sayılır. Örneğin Kabadayı ile Yamyam birbirine saldırırsa ikisi de ölebilir.
@@ -197,6 +207,8 @@ Saldırılar aynı anda gerçekleşmiş sayılır. Örneğin Kabadayı ile Yamya
 | Kumpas → Kumpas üyesi | Yapılamaz; Kumpas kendi üyesini hedef seçemez. |
 | Saldırıdan kurtulan oyuncu | Saldırıya uğradığını ve kurtarıldığını öğrenir. |
 | Çengi'nin ya da Kadı'nın hedefi | Engellendiğini ya da hapsedildiğini öğrenir. |
+| Çengi → Gözcü | Gözcü o gece kimseyi göremez. |
+| Müneccim → ölü oyuncu | Ölü, seçimle yanıt verir; Müneccim'in kim olduğunu bilmez. |
 
 ## 8. Oyuncu dağılımları
 
@@ -216,7 +228,7 @@ Saldırılar aynı anda gerçekleşmiş sayılır. Örneğin Kabadayı ile Yamya
 Kumpas en çok 3 kişidir. Yalnız Ahali ve Fedai birden fazla çıkabilir; öteki roller bir oyunda en çok bir kez bulunur.
 
 **Rol seçimi: rastgele.** Taraf sayıları yukarıdaki tablodan gelir; her taraftaki roller rastgele seçilir.
-- Kasaba: Subaşı her oyunda bulunur. Kalan her yer için 6 özel rol (Ağa, Kadı, Kabadayı, Hekim, Gözcü, Çengi) ile Ahali arasından rastgele seçilir. Özel roller birer kez çıkabilir, Ahali birden fazla çıkabilir.
+- Kasaba: Subaşı her oyunda bulunur. Kalan her yer için 7 özel rol (Ağa, Kadı, Kabadayı, Hekim, Gözcü, Çengi, Müneccim) ile Ahali arasından rastgele seçilir. Özel roller birer kez çıkabilir, Ahali birden fazla çıkabilir.
 - Kumpas: her yer için Zorba, Fedai ve Müfteri arasından rastgele seçilir. Zorba ve Müfteri birer kez çıkabilir, Fedai birden fazla çıkabilir. Kumpas'ta en az bir saldırgan (Zorba ya da Fedai) hep bulunur; Müfteri her oyunda olmayabilir.
 - Tarafsız: 4 rolden rastgele, birbirinden farklı seçilir.
 - Oyun başında oyunda hangi rollerin bulunduğu herkese gösterilir.
@@ -243,7 +255,7 @@ Oyun testlerinden sonra değişebilir. Kodda bu değerler tek bir ayar yerinde t
 | Kadı'nın infaz hakkı | 2 |
 | Kabadayı'nın saldırı hakkı | 2 |
 | Hekim'in kendini koruma hakkı | 1 |
-| Çengi'nin aynı hedefi üst üste engellemesi | Yasak |
+| Çengi'nin aynı hedefi üst üste engellemesi | Serbest |
 | Zorba'nın gece saldırılarına bağışıklığı | Yok |
 | Yamyam'ın gece saldırılarına bağışıklığı | Yok |
 | Derviş'in kişisel koruması | Yok |
@@ -263,7 +275,7 @@ Yapımcının isteğiyle türün yerleşik kurallarına göre kararlaştırıld�
 1. Oyun gece başlar. İlk gece Kadı hapsedemez (önünde gündüz yoktur); öteki roller yeteneklerini kullanabilir.
 2. Kadı hapis hedefini ve Ağa kimlik açıklamasını gündüz, tartışma ya da oylama sırasında telefondan yapar. Kadı'nın seçimi gündüz bitene kadar değişebilir.
 3. Oyuncu kendine oy veremez. Oy, oylama süresi bitene kadar değiştirilebilir ya da geri çekilebilir.
-4. Ölen oyuncu telefonda oyunun akışını (aşamalar, ölümler, açıklanan roller) izler; yaşayanların gizli rollerini ve gece sonuçlarını göremez. Yüz yüze tartışmada susar.
+4. Ölen oyuncu telefonda oyunun akışını (aşamalar, ölümler, açıklanan roller) izler; yaşayanların gizli rollerini ve gece sonuçlarını göremez. Yüz yüze tartışmada susar. Gece Müneccim'in sorusunu telefondan yanıtlayabilir.
 
 **Yüz yüze oyuna özgü**
 5. Kumpas gece telefonda birbirinin hedef önerisini görür; son kararı Zorba verir. Zorba yoksa ya da seçim yapmazsa kıdemli Fedai'nin seçimi geçerlidir.
