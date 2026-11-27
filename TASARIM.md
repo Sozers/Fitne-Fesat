@@ -5,7 +5,9 @@ Durum: ilk taslak. Kaynak: yapımcının roller ve mekanikler belgesi. Kesinleş
 ## 1. Özet
 
 - Tür: gizli roller ve sosyal çıkarım. Gece roller gizlice eylem yapar, gündüz herkes tartışır ve oylar.
-- Oynanış: arkadaşlar aynı ortamda, yüz yüze oynar. Her oyuncunun kendi telefonu vardır, telefonlar yerel ağ (LAN) üzerinden bağlanır. Tartışma telefonda değil, yüz yüze yapılır.
+- Oynanış: yalnız gerçek oyuncular oynar; bot yoktur. Arkadaşlar aynı ortamda, yüz yüze oynar. Her oyuncunun kendi telefonu vardır, telefonlar yerel ağ (LAN) üzerinden bağlanır.
+- Telefon ile yüz yüze olanın ayrımı: gece eylemleri, sonuçlar ve oylama telefondan yapılır; konuşma ve tartışma yüz yüze yapılır.
+- Yönetim: oyun kendi kendini yönetir. Aşamaları, süreleri, gece çözümünü ve açıklamaları uygulama yürütür; anlatıcı ya da yönetici oyuncu gerekmez.
 - Ekran: yalnız mobil, dikey.
 - Oyuncu sayısı: 6–15.
 - Para kazanma: oyun ücretsiz, reklamlı.
@@ -233,7 +235,7 @@ Kurallar çekirdeği yazılmadan önce yapımcının karar vermesi gereken nokta
 8. Ölen oyuncular telefondan oyunu izleyebilir mi, rolleri görebilir mi?
 
 **Yüz yüze oyuna özgü**
-9. Kumpas aynı odada gizlice nasıl anlaşır? Öneri: gece Kumpas üyeleri telefonda Zorba'nın seçtiği hedefi görür; isteyen Fedai/Müfteri öneri işaretleyebilir.
+9. Kumpas aynı odada gizlice nasıl anlaşır? Öneri: gece Kumpas üyeleri telefonda Zorba'nın seçtiği hedefi görür; Fedai ve Müfteri telefonda hedef önerebilir.
 10. Kadı hapsettiği oyuncuyla konuşabilir mi (telefonda kısa yazışma), yoksa yalnız infaz kararı mı verir?
 
 **Rol etkileşimlerinin boşlukları**
