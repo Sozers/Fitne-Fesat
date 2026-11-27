@@ -4,7 +4,7 @@ Bu dosya depoda çalışan bütün yapay zekâ yardımcıları (Claude, ChatGPT/
 
 ## Oyun
 
-- Ad: **Fitne&Fesat** (klasör ve depo adı `FitneFesat`; `&` komut satırında sorun çıkardığı için).
+- Ad: **Fitne&Fesat** (yerel klasör `FitneFesat`, GitHub deposu `Fitne-Fesat`; `&` komut satırında sorun çıkardığı için).
 - Tür: gizli roller ve sosyal çıkarım (gece eylemleri, gündüz tartışma ve oylama).
 - Tema: Osmanlı.
 - Platform: mobil (telefon), Unity.
@@ -17,7 +17,7 @@ Bu dosya depoda çalışan bütün yapay zekâ yardımcıları (Claude, ChatGPT/
 
 ## Git ve GitHub
 
-- Depo: https://github.com/Sozers/FitneFesat, ana dal `main`.
+- Depo: https://github.com/Sozers/Fitne-Fesat, ana dal `main`.
 - Her yardımcı kendi dalında çalışır: Claude için `claude/<konu>`, ChatGPT için `chatgpt/<konu>` (Codex'in kendi dal adları da olur).
 - İşe başlamadan önce `main` çekilir (`git pull`), dal güncel `main` üzerinden açılır.
 - Değişiklik `main`'e çekme isteğiyle (pull request) birleşir. Öteki yardımcının açık dalına ve çekme isteğine onun izni olmadan yazılmaz.
