@@ -38,13 +38,14 @@ Kumpas üyeleri birbirini tanır. Grup olarak her gece yalnız bir ortak saldır
 
 **Ağa** — Kasaba, yönetim
 - Gündüz kimliğini bütün kasabaya açıklayabilir. Açıkladıktan sonra oyu 2 oy değerindedir.
-- Açıklanan kimlik tekrar gizlenemez.
+- Açıklanan kimlik tekrar gizlenemez. Kimliği açıklanmış Ağa'yı Hekim koruyamaz; herkesin bildiği bir hedef olur.
 - Hak: 1 kez kimlik açıklama.
 
 **Kadı** — Kasaba, kontrol
 - Gündüz bir oyuncu seçer; o oyuncu gece zindana atılır.
 - Hapsedilen oyuncu o gece yeteneğini kullanamaz ve dışarıdan gelen saldırılardan korunur.
-- Kadı hapsettiği oyuncuyu gece infaz edebilir.
+- Hapsedilen oyuncu hapsedildiğini öğrenir.
+- Kadı hapsettiği oyuncuyu gece infaz edebilir. İnfazı hiçbir koruma önleyemez.
 - Hak: her gece hapsetme, oyun boyunca 2 infaz.
 - Bir Kasaba üyesini infaz ederse infaz yeteneğini kaybeder.
 
@@ -55,12 +56,15 @@ Kumpas üyeleri birbirini tanır. Grup olarak her gece yalnız bir ortak saldır
 
 **Kabadayı** — Kasaba, saldırı
 - Gece seçtiği bir oyuncuyu öldürmeye çalışır.
+- İlk gece saldıramaz.
 - Bir Kasaba üyesini öldürürse suçluluktan sonraki gece intihar eder.
 - Hak: 2 saldırı.
 
 **Hekim** — Kasaba, koruma
 - Her gece seçtiği bir oyuncuyu ölümcül saldırılardan korur.
-- Koruduğu oyuncunun saldırıya uğrayıp uğramadığını öğrenir.
+- Koruduğu oyuncunun saldırıya uğrayıp uğramadığını öğrenir. Korunan oyuncu da saldırıdan kurtarıldığını öğrenir.
+- Kimliğini açıklamış Ağa'yı koruyamaz.
+- Kadı'nın infazını ve Kabadayı'nın intiharını önleyemez.
 - Hak: sınırsız; kendini koruma oyun boyunca 1 kez.
 
 **Gözcü** — Kasaba, araştırma
@@ -70,7 +74,9 @@ Kumpas üyeleri birbirini tanır. Grup olarak her gece yalnız bir ortak saldır
 **Çengi** — Kasaba, engelleme
 - Her gece bir oyuncunun dikkatini dağıtır; o oyuncu o gece yeteneğini kullanamaz.
 - Kumpas saldırısını, araştırmaları ve korumayı engelleyebilir.
+- Yamyam'ı engelleyemez: onu ziyaret ederse Yamyam tarafından öldürülür.
 - Aynı oyuncuyu üst üste iki gece engelleyemez.
+- Engellediği oyuncu engellendiğini öğrenir.
 - Hak: sınırsız.
 
 **Ahali** — Kasaba, sivil
@@ -80,7 +86,7 @@ Kumpas üyeleri birbirini tanır. Grup olarak her gece yalnız bir ortak saldır
 ### Kumpas
 
 **Zorba** — Kumpas, lider
-- Her gece Kumpas'ın öldüreceği oyuncuyu belirler.
+- Her gece Kumpas'ın öldüreceği oyuncuyu belirler. Kumpas kendi üyesini hedef seçemez.
 - Subaşı'nın araştırmasında masum görünür.
 - Fedai hayatta değilse saldırıyı kendisi yapar.
 - Hak: sınırsız.
@@ -107,8 +113,9 @@ Kumpas üyeleri birbirini tanır. Grup olarak her gece yalnız bir ortak saldır
 **Yamyam** — Tarafsız, saldırı
 - Her gece istediği bir oyuncuya saldırabilir. Kasaba'nın ve Kumpas'ın ortak düşmanıdır.
 - Subaşı'nın araştırmasında şüpheli görünür.
+- Engellenemez: Çengi onu ziyaret ederse Yamyam Çengi'yi öldürür ve kendi hedefine de saldırır.
 - Hak: sınırsız.
-- Zafer: kendisine tehdit oluşturan bütün oyuncuları ortadan kaldırmak.
+- Zafer: yaşayan Kasaba ve Kumpas üyesi kalmaması.
 
 **Kanlı** — Tarafsız, intikam
 - Oyun başında kendisine rastgele bir Kasaba üyesi (Ağa ve Kadı dışında) hedef olarak atanır. Hedefi suçlayıp gündüz oylamasında idam ettirmeye çalışır.
@@ -178,6 +185,14 @@ Saldırılar aynı anda gerçekleşmiş sayılır. Örneğin Kabadayı ile Yamya
 | Gözcü → Fedai'nin hedefi | Gözcü Fedai'nin ziyaretini öğrenir. |
 | Soytarı gündüz idam edilir | Soytarı kişisel zafer kazanır. |
 | Kanlı'nın hedefi idam dışında ölür | Kanlı Soytarı'ya dönüşür. |
+| Çengi → Yamyam | Çengi ölür; Yamyam engellenmez ve kendi hedefine de saldırır. |
+| Hekim → Çengi, Çengi → Yamyam | Çengi hayatta kalır; Yamyam yine engellenmez. |
+| Hekim → kimliği açıklanmış Ağa | Koruma işlemez. |
+| Hekim → Kadı'nın infaz ettiği oyuncu | Koruma işlemez; infaz gerçekleşir. |
+| Hekim, Kabadayı'nın hedefini korur | Hedef hayatta kalır; Kabadayı hakkını yine harcamış olur. |
+| Kumpas → Kumpas üyesi | Yapılamaz; Kumpas kendi üyesini hedef seçemez. |
+| Saldırıdan kurtulan oyuncu | Saldırıya uğradığını ve kurtarıldığını öğrenir. |
+| Çengi'nin ya da Kadı'nın hedefi | Engellendiğini ya da hapsedildiğini öğrenir. |
 
 ## 8. Oyuncu dağılımları
 
@@ -231,6 +246,9 @@ Oyun testlerinden sonra değişebilir. Kodda bu değerler tek bir ayar yerinde t
 | Kanlı'nın hedefi idam dışında ölürse | Soytarı'ya dönüşür |
 | İdam için gereken oy | Yaşayan oyuncuların oy gücünün salt çoğunluğu |
 | Kimse ölmeden geçen tur sayısı (beraberlik) | 3 |
+| Kabadayı'nın ilk gece saldırması | Yasak |
+| Yamyam'ı ziyaret eden Çengi | Ölür |
+| Hekim'in kimliği açıklanmış Ağa'yı koruması | Yasak |
 
 ## 11. Ayrıntı kararları
 
@@ -248,7 +266,7 @@ Yapımcının isteğiyle türün yerleşik kurallarına göre kararlaştırıld�
 
 **Rol etkileşimleri**
 7. Çengi Zorba'yı engellerse ve Fedai yaşıyorsa Fedai kendi seçtiği hedefe saldırır; Fedai seçim yapmamışsa o gece Kumpas saldırısı olmaz.
-8. Kadı engellenemez; hapis gündüz seçildiği için Çengi'den önce işler. Yamyam engellenebilir.
+8. Kadı engellenemez; hapis gündüz seçildiği için Çengi'den önce işler. Yamyam da engellenemez ve kendisini ziyaret eden Çengi'yi öldürür; ancak hapisteki Yamyam kimseyi öldüremez.
 9. Hapis yalnız hapsedilenin yeteneğini ve ona yapılan saldırıları durdurur. Hapsedileni araştırma, koruma, gözetleme ve sahte delil normal işler.
 10. Kabadayı'nın intiharını Hekim önleyemez.
 11. Saldırıyı kim yaparsa Gözcü onu hedefin yanında görür: Fedai varsa Fedai, yoksa Zorba (ya da son kalan Müfteri).
