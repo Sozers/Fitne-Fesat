@@ -1,0 +1,14 @@
+{
+    "name": "FitneFesat.Net",
+    "rootNamespace": "FitneFesat.Net",
+    "references": ["FitneFesat.Core"],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

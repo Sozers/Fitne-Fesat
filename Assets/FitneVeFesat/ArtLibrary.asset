@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa3b268cca77efb4fb83c466e6735502, type: 3}
+  m_Name: ArtLibrary
+  m_EditorClassIdentifier: FitneFesat.Game::FitneFesat.Game.ArtLibrary
+  portraits:
+  - {fileID: 21300000, guid: f515156ca7f5afc47b614fd4511e9cce, type: 3}
+  - {fileID: 21300000, guid: c9bab735c3d00334abfe971e71285a4d, type: 3}
+  - {fileID: 21300000, guid: f3d8c6c81ef45794e89918c927251e23, type: 3}
+  - {fileID: 21300000, guid: 454ae58980ea7e5489d02aa4fd03e0cc, type: 3}
+  - {fileID: 21300000, guid: 22c35a876f6d10e4aacdedfb1f43395c, type: 3}
+  - {fileID: 21300000, guid: 4f049b709ca4fd746a211d4681a02a73, type: 3}
+  - {fileID: 21300000, guid: 6b5830dbccca42044a529435d99755e4, type: 3}
+  - {fileID: 0}
+  - {fileID: 21300000, guid: 2866693e5c627dc4583e2e5e95fb8075, type: 3}
+  - {fileID: 21300000, guid: abcda538f3b0a26459f025e1d528196d, type: 3}
+  - {fileID: 21300000, guid: efa5c2a071709ca48a1aa2fc91ac50ed, type: 3}
+  - {fileID: 21300000, guid: 14bbbb0a1a625c7449b4c2dbd4c732f3, type: 3}
+  - {fileID: 21300000, guid: 4e84e2806ac479549938afd7c03f2043, type: 3}
+  - {fileID: 21300000, guid: 66a69cda426b3e943bf117879b92c155, type: 3}
+  - {fileID: 21300000, guid: 71ce5cacccfdd644f92cc6848b890f28, type: 3}
+  - {fileID: 21300000, guid: 9179050cbe3f94941ba5ef112af68084, type: 3}
+  menuBackground: {fileID: 21300000, guid: deffc96bcfa191b4d85cfa960b976b2e, type: 3}
+  titleBanner: {fileID: 21300000, guid: c186c51b69b906b4c8d0bdca5bbd22f1, type: 3}
+  panelVertical: {fileID: 21300000, guid: c755bc1164f0d7540b8abaec6524b781, type: 3}
+  badgeShield: {fileID: 21300000, guid: 2f29ce86c35f3394887a391bdacf7153, type: 3}

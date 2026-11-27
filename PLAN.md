@@ -7,10 +7,15 @@
   - [x] Oyuncu sayısı: 6–15
   - [x] Para kazanma: ücretsiz, reklamlı
   - [x] Platform: Android ve iOS (ikisi birden)
-- [ ] Unity 6000.6.9f1 mobil projesi (2D, URP, dikey ekran)
+- [x] Unity 6000.6.9f1 mobil projesi (2D, URP, dikey ekran)
 - [x] `TASARIM.md`: oyun döngüsü, taraflar, roller, kazanma koşulları, ayrıntı kararları (ilk sürüm)
-- [ ] Ağdan bağımsız, saf C# kurallar çekirdeği ve testleri
-- [ ] Yerel ağ (LAN) katmanı: telefonların birbirini bulması, oda kurma ve katılma
-- [ ] Mobil arayüz: lobi, rol kartı, gece eylemi, sabah sonuçları, tartışma sayacı, oylama
-- [ ] LAN üzerinden telefonlarla oynanabilir ilk prototip
+- [x] Ağdan bağımsız, saf C# kurallar çekirdeği ve testleri (`Tests/FitneFesat.Core.Tests`)
+- [x] Yerel ağ (LAN) katmanı: oda kurma, odaları UDP ile bulma, adresle katılma, kopan oyuncunun aynı adla dönmesi
+- [x] Mobil arayüz, ilk sürüm: menü, lobi, rol kartı, gece eylemi, sabah sonuçları, tartışma sayacı, oylama, oyun sonu
+- [x] Windows deneme sürümü: telefon gibi dikey pencereler (`Araclar/deneme.bat`)
+- [ ] Yapımcının Windows'ta denemesi ve geri bildirimi
+- [ ] Müneccim portresi; dikey ana menü görseli
+- [ ] Android derlemesi (Unity Hub'dan Android modülü eklenmeli) ve telefonlarda LAN denemesi
+- [ ] iOS derlemesi (Mac ve Apple geliştirici hesabı; yerel ağ izni)
+- [ ] Arayüz cilası: özgün yazı tipi, süslü çerçeveler, sesler, geçiş efektleri
 - [ ] Reklam entegrasyonu

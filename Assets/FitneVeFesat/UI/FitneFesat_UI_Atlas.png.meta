@@ -1,0 +1,522 @@
+fileFormatVersion: 2
+guid: b7d9a7f2bdf7111428089de6656d14df
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5167979458626698499
+    second: FitneFesat_UI_Atlas_0
+  - first:
+      213: -4846204746095809512
+    second: FitneFesat_UI_Atlas_1
+  - first:
+      213: 813572120804242070
+    second: FitneFesat_UI_Atlas_2
+  - first:
+      213: 8706067570034400725
+    second: FitneFesat_UI_Atlas_3
+  - first:
+      213: -1610488505436369474
+    second: FitneFesat_UI_Atlas_4
+  - first:
+      213: -6597419508193999409
+    second: FitneFesat_UI_Atlas_5
+  - first:
+      213: 385949732235406483
+    second: FitneFesat_UI_Atlas_6
+  - first:
+      213: -7788954210447331812
+    second: FitneFesat_UI_Atlas_7
+  - first:
+      213: 8396798993112684898
+    second: FitneFesat_UI_Atlas_8
+  - first:
+      213: -6491900457435782084
+    second: FitneFesat_UI_Atlas_9
+  - first:
+      213: -6934763923837533114
+    second: FitneFesat_UI_Atlas_10
+  - first:
+      213: -25294603536407445
+    second: FitneFesat_UI_Atlas_11
+  - first:
+      213: 1385844446423803113
+    second: FitneFesat_UI_Atlas_12
+  - first:
+      213: -4386156088944320614
+    second: FitneFesat_UI_Atlas_13
+  - first:
+      213: 201310240080502707
+    second: FitneFesat_UI_Atlas_14
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: FitneFesat_UI_Atlas_0
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 1124
+        width: 1629
+        height: 917
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30db5fdbfe958b740800000000000000
+      internalID: 5167979458626698499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FitneFesat_UI_Atlas_1
+      rect:
+        serializedVersion: 2
+        x: 1650
+        y: 1647
+        width: 148
+        height: 394
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81ca520b572debcb0800000000000000
+      internalID: -4846204746095809512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FitneFesat_UI_Atlas_2
+      rect:
+        serializedVersion: 2
+        x: 1812
+        y: 1654
+        width: 205
+        height: 387
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 692b2bb88836a4b00800000000000000
+      internalID: 813572120804242070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FitneFesat_UI_Atlas_3
+      rect:
+        serializedVersion: 2
+        x: 1650
+        y: 1247
+        width: 364
+        height: 386
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ddd276045a22d870800000000000000
+      internalID: 8706067570034400725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FitneFesat_UI_Atlas_4
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 848
+        width: 839
+        height: 262
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebd8d9eac3566a9e0800000000000000
+      internalID: -1610488505436369474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FitneFesat_UI_Atlas_5
+      rect:
+        serializedVersion: 2
+        x: 860
+        y: 877
+        width: 692
+        height: 233
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc54dd379e14174a0800000000000000
+      internalID: -6597419508193999409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FitneFesat_UI_Atlas_6
+      rect:
+        serializedVersion: 2
+        x: 1650
+        y: 1038
+        width: 376
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39c6c039c3b2b5500800000000000000
+      internalID: 385949732235406483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FitneFesat_UI_Atlas_7
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 118
+        width: 518
+        height: 716
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1ee08ac96318e390800000000000000
+      internalID: -7788954210447331812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FitneFesat_UI_Atlas_8
+      rect:
+        serializedVersion: 2
+        x: 1145
+        y: 643
+        width: 326
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 269d6d2323c678470800000000000000
+      internalID: 8396798993112684898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FitneFesat_UI_Atlas_9
+      rect:
+        serializedVersion: 2
+        x: 1566
+        y: 679
+        width: 317
+        height: 345
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c342855fde228e5a0800000000000000
+      internalID: -6491900457435782084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FitneFesat_UI_Atlas_10
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 328
+        width: 307
+        height: 337
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 644487604f4c2cf90800000000000000
+      internalID: -6934763923837533114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FitneFesat_UI_Atlas_11
+      rect:
+        serializedVersion: 2
+        x: 860
+        y: 338
+        width: 271
+        height: 327
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b646a7d21b226aff0800000000000000
+      internalID: -25294603536407445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FitneFesat_UI_Atlas_12
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 17
+        width: 672
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e4e9077e228b3310800000000000000
+      internalID: 1385844446423803113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FitneFesat_UI_Atlas_13
+      rect:
+        serializedVersion: 2
+        x: 693
+        y: 9
+        width: 252
+        height: 305
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9f9e05a64e3123c0800000000000000
+      internalID: -4386156088944320614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FitneFesat_UI_Atlas_14
+      rect:
+        serializedVersion: 2
+        x: 959
+        y: 84
+        width: 231
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3bf95a5c8923bc200800000000000000
+      internalID: 201310240080502707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      FitneFesat_UI_Atlas_0: 5167979458626698499
+      FitneFesat_UI_Atlas_1: -4846204746095809512
+      FitneFesat_UI_Atlas_10: -6934763923837533114
+      FitneFesat_UI_Atlas_11: -25294603536407445
+      FitneFesat_UI_Atlas_12: 1385844446423803113
+      FitneFesat_UI_Atlas_13: -4386156088944320614
+      FitneFesat_UI_Atlas_14: 201310240080502707
+      FitneFesat_UI_Atlas_2: 813572120804242070
+      FitneFesat_UI_Atlas_3: 8706067570034400725
+      FitneFesat_UI_Atlas_4: -1610488505436369474
+      FitneFesat_UI_Atlas_5: -6597419508193999409
+      FitneFesat_UI_Atlas_6: 385949732235406483
+      FitneFesat_UI_Atlas_7: -7788954210447331812
+      FitneFesat_UI_Atlas_8: 8396798993112684898
+      FitneFesat_UI_Atlas_9: -6491900457435782084
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
