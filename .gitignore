@@ -50,3 +50,7 @@ crashlytics-build.properties
 .DS_Store
 Thumbs.db
 desktop.ini
+
+# .NET test projesi
+Tests/**/bin/
+Tests/**/obj/

@@ -1,0 +1,14 @@
+{
+    "name": "FitneFesat.Game",
+    "rootNamespace": "FitneFesat.Game",
+    "references": ["FitneFesat.Core", "FitneFesat.Net", "UnityEngine.UI", "Unity.InputSystem"],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

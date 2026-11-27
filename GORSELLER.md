@@ -29,7 +29,7 @@ Dosya adları rolün koddaki kimliğidir (Türkçe karakter yok, numara yok). Ma
 
 ## Eksikler ve notlar
 
-- **Müneccim portresi yok.** Rol tasarıma sonradan eklendi.
+- **Müneccim portresi yok.** Rol tasarıma sonradan eklendi; oyunda rol kartında boş görünür. Eklenince `Portreler/Kasaba/Muneccim.png` olarak konur ve Unity'de **Fitne ve Fesat → Projeyi Hazırla** çalıştırılır.
 - **Ana menü arka planı ve çerçevesi yatay** (1672 × 941). Oyun dikey ekranda oynanacağı için dikey bir ana menü görseli gerekecek ya da bu görsel dikey ekrana kırpılarak kullanılacak.
 - Portreler RGB'dir (şeffaflık yok); kart içinde çerçeveli kare olarak kullanılır. Mobil için Unity'de en büyük boyut 512 ya da 1024 ile içe aktarılmalı.
 - Alternatif portreler (yapımcının `02_Alternatif_Portreler` klasörü) depoya alınmadı.

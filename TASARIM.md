@@ -288,5 +288,7 @@ Yapımcının isteğiyle türün yerleşik kurallarına göre kararlaştırıld�
 10. Kabadayı'nın intiharını Hekim önleyemez.
 11. Saldırıyı kim yaparsa Gözcü onu hedefin yanında görür: Fedai varsa kıdemli Fedai, yoksa Zorba (ya da son kalan Müfteri).
 12. Kanlı'nın hedefi Ağa ya da Kadı olamaz. Hedef gündüz idamı dışında herhangi bir yolla ölürse Kanlı Maskara'ya dönüşür.
-13. Kanlı hedefini idam ettirince kazanır ve oyunda kalmaya devam eder; sonradan ölse de zaferi geçerlidir.
+13. Kanlı hedefini idam ettirince kazanır ve oyunda kalmaya devam eder; sonradan ölse de zaferi geçerlidir. Hedef idam edildiğinde Kanlı'nın hayatta olması gerekir.
+14. Ölümler sabah, nedeniyle birlikte açıklanır: "Kumpas tarafından öldürüldü", "Kabadayı'nın kurşunuyla öldü", "Yamyam tarafından parçalandı", "Kadı tarafından infaz edildi", "vicdan azabıyla canına kıydı".
+15. Oylamada oylar herkese açıktır: her oyuncunun aldığı oy gücü canlı görünür, kimin kime oy verdiği görünmez.
 

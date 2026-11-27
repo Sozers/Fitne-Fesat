@@ -21,3 +21,6 @@
 *.ttf binary
 *.otf binary
 *.fbx binary
+
+# Windows betikleri CRLF
+*.bat text eol=crlf
