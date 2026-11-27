@@ -83,7 +83,7 @@ Kumpas üyeleri birbirini tanır. Grup olarak her gece yalnız bir ortak saldır
 **Ahali** — Kasaba, sivil
 - Özel yeteneği yoktur. Tartışma, çıkarım ve oylamayla Kasaba'ya yardım eder.
 - Gece telefonda geceyi onaylar; böylece öteki oyuncular onun yeteneği olmadığını anlayamaz.
-- Birden fazla oyuncuya verilebilen tek roldür.
+- Kasaba'da birden fazla oyuncuya verilebilen tek roldür.
 
 ### Kumpas
 
@@ -96,6 +96,7 @@ Kumpas üyeleri birbirini tanır. Grup olarak her gece yalnız bir ortak saldır
 **Fedai** — Kumpas, saldırı
 - Zorba'nın belirlediği hedefe saldırır.
 - Zorba ölünce hedef seçme yetkisini devralır.
+- Bir oyunda birden fazla Fedai olabilir. Kumpas'ın gecelik tek saldırısını kıdemli Fedai yapar (oyun başında rastgele belirlenir); öteki Fedai yedektir, kıdemli ölünce onun yerine geçer.
 - Gözcü onu saldırdığı yerde görebilir.
 - Hak: sınırsız.
 
@@ -103,7 +104,7 @@ Kumpas üyeleri birbirini tanır. Grup olarak her gece yalnız bir ortak saldır
 - Her gece bir oyuncu hakkında sahte delil oluşturur. Subaşı o gece bu oyuncuyu araştırırsa şüpheli sonucunu alır.
 - Sahte delil yalnız oluşturulduğu gece geçerlidir.
 - Son kalan Kumpas üyesi olursa iftira yeteneğini kaybeder, saldırı yeteneği kazanır.
-- Müfteri oyundaysa Subaşı da mutlaka oyundadır; yoksa yeteneği boşa gider.
+- Subaşı her oyunda bulunduğu için yeteneği hep işe yarar.
 - Hak: sınırsız.
 
 ### Tarafsız
@@ -212,12 +213,11 @@ Saldırılar aynı anda gerçekleşmiş sayılır. Örneğin Kabadayı ile Yamya
 | 14 | 9 | 3 | 2 |
 | 15 | 10 | 3 | 2 |
 
-Kumpas en çok 3 kişidir. Böylece bütün özel roller tek kalır; yalnız Ahali tekrarlanır.
+Kumpas en çok 3 kişidir. Yalnız Ahali ve Fedai birden fazla çıkabilir; öteki roller bir oyunda en çok bir kez bulunur.
 
 **Rol seçimi: rastgele.** Taraf sayıları yukarıdaki tablodan gelir; her taraftaki roller rastgele seçilir.
-- Kasaba: her yer için 7 özel rol (Ağa, Kadı, Subaşı, Kabadayı, Hekim, Gözcü, Çengi) ile Ahali arasından rastgele seçilir. Özel roller birer kez çıkabilir, Ahali birden fazla çıkabilir. Hiçbir rolün her oyunda bulunması zorunlu değildir.
-- Kumpas: 2 kişilik oyunda Zorba, Fedai ve Müfteri'den rastgele 2'si, 3 kişilik oyunda üçü birden. Her durumda Zorba ya da Fedai bulunduğu için Kumpas'ın saldırısı hep vardır. Zorba yoksa hedefi Fedai seçer.
-- Müfteri seçilmişse Kasaba rollerinden biri mutlaka Subaşı olur; Kasaba'nın öteki yerleri yine rastgele seçilir.
+- Kasaba: Subaşı her oyunda bulunur. Kalan her yer için 6 özel rol (Ağa, Kadı, Kabadayı, Hekim, Gözcü, Çengi) ile Ahali arasından rastgele seçilir. Özel roller birer kez çıkabilir, Ahali birden fazla çıkabilir.
+- Kumpas: her yer için Zorba, Fedai ve Müfteri arasından rastgele seçilir. Zorba ve Müfteri birer kez çıkabilir, Fedai birden fazla çıkabilir. Kumpas'ta en az bir saldırgan (Zorba ya da Fedai) hep bulunur; Müfteri her oyunda olmayabilir.
 - Tarafsız: 4 rolden rastgele, birbirinden farklı seçilir.
 - Oyun başında oyunda hangi rollerin bulunduğu herkese gösterilir.
 
@@ -266,15 +266,15 @@ Yapımcının isteğiyle türün yerleşik kurallarına göre kararlaştırıld�
 4. Ölen oyuncu telefonda oyunun akışını (aşamalar, ölümler, açıklanan roller) izler; yaşayanların gizli rollerini ve gece sonuçlarını göremez. Yüz yüze tartışmada susar.
 
 **Yüz yüze oyuna özgü**
-5. Kumpas gece telefonda birbirinin hedef önerisini görür; son kararı Zorba verir. Zorba yoksa ya da seçim yapmazsa Fedai'nin seçimi geçerlidir.
+5. Kumpas gece telefonda birbirinin hedef önerisini görür; son kararı Zorba verir. Zorba yoksa ya da seçim yapmazsa kıdemli Fedai'nin seçimi geçerlidir.
 6. Kadı ile hapsedilen arasında yazışma yoktur. Sorgu otomatiktir: hapsedilen, oyunun bütün rolleri arasından birini seçip söyler (yalan olabilir); Kadı yanıtı görüp infaz kararını verir.
 
 **Rol etkileşimleri**
-7. Çengi Zorba'yı engellerse ve Fedai yaşıyorsa Fedai kendi seçtiği hedefe saldırır; Fedai seçim yapmamışsa o gece Kumpas saldırısı olmaz.
+7. Çengi Zorba'yı engellerse ve Fedai yaşıyorsa kıdemli Fedai kendi seçtiği hedefe saldırır; seçim yapmamışsa o gece Kumpas saldırısı olmaz. Çengi kıdemli Fedai'yi engellerse ya da Kadı onu hapsederse saldırıyı yedek Fedai yapmaz; o gece Kumpas saldırısı olmaz.
 8. Kadı engellenemez; hapis gündüz seçildiği için Çengi'den önce işler. Yamyam da engellenemez ve kendisini ziyaret eden Çengi'yi öldürür; ancak hapisteki Yamyam kimseyi öldüremez.
 9. Hapis yalnız hapsedilenin yeteneğini ve ona yapılan saldırıları durdurur. Hapsedileni araştırma, koruma, gözetleme ve sahte delil normal işler.
 10. Kabadayı'nın intiharını Hekim önleyemez.
-11. Saldırıyı kim yaparsa Gözcü onu hedefin yanında görür: Fedai varsa Fedai, yoksa Zorba (ya da son kalan Müfteri).
+11. Saldırıyı kim yaparsa Gözcü onu hedefin yanında görür: Fedai varsa kıdemli Fedai, yoksa Zorba (ya da son kalan Müfteri).
 12. Kanlı'nın hedefi Ağa ya da Kadı olamaz. Hedef gündüz idamı dışında herhangi bir yolla ölürse Kanlı Maskara'ya dönüşür.
 13. Kanlı hedefini idam ettirince kazanır ve oyunda kalmaya devam eder; sonradan ölse de zaferi geçerlidir.
 
