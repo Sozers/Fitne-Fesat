@@ -22,15 +22,15 @@ Oyunda 3 taraf ve 15 rol vardır: Kasaba 8, Kumpas 3, Tarafsız 4.
 | Kasaba | Yaşayan Kumpas üyesi ve Yamyam kalmadığında kazanır. |
 | Kumpas | Yaşayan Kasaba üyesi ve Yamyam kalmadığında kazanır. |
 | Yamyam | Yaşayan Kasaba ve Kumpas üyesi kalmadığında kazanır. |
-| Derviş, Kanlı, Soytarı | Kişisel zaferleri vardır (bkz. roller); ana oyunun sonucunu belirlemezler. |
+| Derviş, Kanlı, Maskara | Kişisel zaferleri vardır (bkz. roller); ana oyunun sonucunu belirlemezler. |
 
 Kumpas üyeleri birbirini tanır. Grup olarak her gece yalnız bir ortak saldırı yapabilir.
 
 **Oyun sonu**
-- Kasaba, Kumpas ve Yamyam birbirinin düşmanıdır. Bunlardan yalnız biri hayatta kaldığında oyun biter ve o kazanır. Yanında yaşayan Derviş, Kanlı ya da Soytarı bulunabilir.
+- Kasaba, Kumpas ve Yamyam birbirinin düşmanıdır. Bunlardan yalnız biri hayatta kaldığında oyun biter ve o kazanır. Yanında yaşayan Derviş, Kanlı ya da Maskara bulunabilir.
 - Üçünden hiçbiri hayatta kalmazsa (örneğin son Kasaba üyesi ile Yamyam aynı gece birbirini öldürürse) oyun berabere biter.
 - Arka arkaya belirli sayıda tur kimse ölmezse oyun berabere biter (sayı: denge ayarlarında).
-- Oyun bittiğinde Derviş hayattaysa o da kazanır. Hedefini idam ettirmiş Kanlı ve idam edilmiş Soytarı da kazananlar arasında gösterilir.
+- Oyun bittiğinde Derviş hayattaysa o da kazanır. Hedefini idam ettirmiş Kanlı ve idam edilmiş Maskara da kazananlar arasında gösterilir.
 
 ## 3. Roller
 
@@ -45,7 +45,8 @@ Kumpas üyeleri birbirini tanır. Grup olarak her gece yalnız bir ortak saldır
 - Gündüz bir oyuncu seçer; o oyuncu gece zindana atılır.
 - Hapsedilen oyuncu o gece yeteneğini kullanamaz ve dışarıdan gelen saldırılardan korunur.
 - Hapsedilen oyuncu hapsedildiğini öğrenir.
-- Kadı hapsettiği oyuncuyu gece infaz edebilir. İnfazı hiçbir koruma önleyemez.
+- Sorgu otomatiktir: hapsedilen oyuncu gece telefonda oyunun bütün rolleri arasından (oyunda olmayanlar dahil) birini seçerek "rolüm bu" der; doğruyu da söyleyebilir, yalan da. Kadı bu yanıtı görür. Yanıt vermezse Kadı "yanıt vermedi" görür.
+- Kadı, sorgunun yanıtına göre hapsettiği oyuncuyu gece infaz edebilir. İnfazı hiçbir koruma önleyemez.
 - Hak: her gece hapsetme, oyun boyunca 2 infaz.
 - Bir Kasaba üyesini infaz ederse infaz yeteneğini kaybeder.
 
@@ -81,6 +82,7 @@ Kumpas üyeleri birbirini tanır. Grup olarak her gece yalnız bir ortak saldır
 
 **Ahali** — Kasaba, sivil
 - Özel yeteneği yoktur. Tartışma, çıkarım ve oylamayla Kasaba'ya yardım eder.
+- Gece telefonda geceyi onaylar; böylece öteki oyuncular onun yeteneği olmadığını anlayamaz.
 - Birden fazla oyuncuya verilebilen tek roldür.
 
 ### Kumpas
@@ -101,13 +103,14 @@ Kumpas üyeleri birbirini tanır. Grup olarak her gece yalnız bir ortak saldır
 - Her gece bir oyuncu hakkında sahte delil oluşturur. Subaşı o gece bu oyuncuyu araştırırsa şüpheli sonucunu alır.
 - Sahte delil yalnız oluşturulduğu gece geçerlidir.
 - Son kalan Kumpas üyesi olursa iftira yeteneğini kaybeder, saldırı yeteneği kazanır.
+- Müfteri oyundaysa Subaşı da mutlaka oyundadır; yoksa yeteneği boşa gider.
 - Hak: sınırsız.
 
 ### Tarafsız
 
 **Derviş** — Tarafsız, hayatta kalma
 - Hiçbir tarafa üye değildir; kimin kazandığıyla ilgilenmez.
-- Aktif yeteneği yoktur. Taraflarla iş birliği yapabilir, taraf değiştirebilir; rolü değişmez.
+- Aktif yeteneği yoktur; gece telefonda geceyi onaylar. Taraflarla iş birliği yapabilir, taraf değiştirebilir; rolü değişmez.
 - Zafer: oyun sona erdiğinde hayatta olmak.
 
 **Yamyam** — Tarafsız, saldırı
@@ -119,13 +122,13 @@ Kumpas üyeleri birbirini tanır. Grup olarak her gece yalnız bir ortak saldır
 
 **Kanlı** — Tarafsız, intikam
 - Oyun başında kendisine rastgele bir Kasaba üyesi (Ağa ve Kadı dışında) hedef olarak atanır. Hedefi suçlayıp gündüz oylamasında idam ettirmeye çalışır.
-- Hedefi gündüz idamı dışında bir yolla ölürse (örneğin gece öldürülürse) Soytarı'ya dönüşür.
+- Hedefi gündüz idamı dışında bir yolla ölürse (örneğin gece öldürülürse) Maskara'ya dönüşür.
 - Zafer: hedefin gündüz oylamasıyla idam edilmesi.
 
-**Soytarı** — Tarafsız, aldatmaca
+**Maskara** — Tarafsız, aldatmaca
 - Kendini şüpheli gösterip oyuncuları kendi aleyhine oy vermeye ikna etmeye çalışır.
 - Gece öldürülürse kaybeder.
-- Zafer: gündüz oylamasıyla idam edilmek. Soytarı kazandığında öteki oyuncuların oyunu sürer.
+- Zafer: gündüz oylamasıyla idam edilmek. Maskara kazandığında öteki oyuncuların oyunu sürer.
 
 ## 4. Subaşı araştırma sonuçları
 
@@ -136,7 +139,7 @@ Araştırma yalnız iki sonuç verir; gerçek rol hiçbir zaman doğrudan öğre
 | Ağa, Kadı, Subaşı, Kabadayı, Hekim, Gözcü, Çengi, Ahali | Masum |
 | Zorba | Masum |
 | Fedai, Müfteri | Şüpheli |
-| Derviş, Kanlı, Soytarı | Masum |
+| Derviş, Kanlı, Maskara | Masum |
 | Yamyam | Şüpheli |
 | Müfteri'nin o gece sahte delil oluşturduğu oyuncu | Şüpheli |
 
@@ -183,8 +186,8 @@ Saldırılar aynı anda gerçekleşmiş sayılır. Örneğin Kabadayı ile Yamya
 | Kadı bir Kasaba üyesini infaz eder | Kadı infaz hakkını kaybeder. |
 | Kabadayı bir Kasaba üyesini öldürür | Kabadayı sonraki gece intihar eder. |
 | Gözcü → Fedai'nin hedefi | Gözcü Fedai'nin ziyaretini öğrenir. |
-| Soytarı gündüz idam edilir | Soytarı kişisel zafer kazanır. |
-| Kanlı'nın hedefi idam dışında ölür | Kanlı Soytarı'ya dönüşür. |
+| Maskara gündüz idam edilir | Maskara kişisel zafer kazanır. |
+| Kanlı'nın hedefi idam dışında ölür | Kanlı Maskara'ya dönüşür. |
 | Çengi → Yamyam | Çengi ölür; Yamyam engellenmez ve kendi hedefine de saldırır. |
 | Hekim → Çengi, Çengi → Yamyam | Çengi hayatta kalır; Yamyam yine engellenmez. |
 | Hekim → kimliği açıklanmış Ağa | Koruma işlemez. |
@@ -214,12 +217,14 @@ Kumpas en çok 3 kişidir. Böylece bütün özel roller tek kalır; yalnız Aha
 **Rol seçimi: rastgele.** Taraf sayıları yukarıdaki tablodan gelir; her taraftaki roller rastgele seçilir.
 - Kasaba: her yer için 7 özel rol (Ağa, Kadı, Subaşı, Kabadayı, Hekim, Gözcü, Çengi) ile Ahali arasından rastgele seçilir. Özel roller birer kez çıkabilir, Ahali birden fazla çıkabilir. Hiçbir rolün her oyunda bulunması zorunlu değildir.
 - Kumpas: 2 kişilik oyunda Zorba, Fedai ve Müfteri'den rastgele 2'si, 3 kişilik oyunda üçü birden. Her durumda Zorba ya da Fedai bulunduğu için Kumpas'ın saldırısı hep vardır. Zorba yoksa hedefi Fedai seçer.
+- Müfteri seçilmişse Kasaba rollerinden biri mutlaka Subaşı olur; Kasaba'nın öteki yerleri yine rastgele seçilir.
 - Tarafsız: 4 rolden rastgele, birbirinden farklı seçilir.
 - Oyun başında oyunda hangi rollerin bulunduğu herkese gösterilir.
 
 ## 9. Genel kurallar
 
 - Roller oyun başında rastgele dağıtılır.
+- Gece her yaşayan oyuncu telefonda ya yeteneğini kullanır ya da geceyi onaylar. Yeteneği olmayan rollere (Ahali, Derviş, Kanlı, Maskara) de bir gece ekranı ve onay düğmesi gösterilir; böylece kimin rolü olduğu telefon hareketlerinden anlaşılmaz. Herkes onaylarsa gece süresi dolmadan biter.
 - Her oyuncu kendi rolünü bilir. Kumpas üyeleri birbirini tanır.
 - Oyuncular oyunda hangi rollerin bulunduğunu bilir, kime dağıtıldığını bilmez.
 - Ölen oyuncunun rolü herkese açıklanır.
@@ -242,8 +247,8 @@ Oyun testlerinden sonra değişebilir. Kodda bu değerler tek bir ayar yerinde t
 | Zorba'nın gece saldırılarına bağışıklığı | Yok |
 | Yamyam'ın gece saldırılarına bağışıklığı | Yok |
 | Derviş'in kişisel koruması | Yok |
-| Soytarı'nın ölüm sonrası intikamı | Yok |
-| Kanlı'nın hedefi idam dışında ölürse | Soytarı'ya dönüşür |
+| Maskara'nın ölüm sonrası intikamı | Yok |
+| Kanlı'nın hedefi idam dışında ölürse | Maskara'ya dönüşür |
 | İdam için gereken oy | Yaşayan oyuncuların oy gücünün salt çoğunluğu |
 | Kimse ölmeden geçen tur sayısı (beraberlik) | 3 |
 | Kabadayı'nın ilk gece saldırması | Yasak |
@@ -262,7 +267,7 @@ Yapımcının isteğiyle türün yerleşik kurallarına göre kararlaştırıld�
 
 **Yüz yüze oyuna özgü**
 5. Kumpas gece telefonda birbirinin hedef önerisini görür; son kararı Zorba verir. Zorba yoksa ya da seçim yapmazsa Fedai'nin seçimi geçerlidir.
-6. Kadı ile hapsettiği oyuncu gece telefonda kısa yazışabilir. İnfaz kararını Kadı verir.
+6. Kadı ile hapsedilen arasında yazışma yoktur. Sorgu otomatiktir: hapsedilen, oyunun bütün rolleri arasından birini seçip söyler (yalan olabilir); Kadı yanıtı görüp infaz kararını verir.
 
 **Rol etkileşimleri**
 7. Çengi Zorba'yı engellerse ve Fedai yaşıyorsa Fedai kendi seçtiği hedefe saldırır; Fedai seçim yapmamışsa o gece Kumpas saldırısı olmaz.
@@ -270,6 +275,6 @@ Yapımcının isteğiyle türün yerleşik kurallarına göre kararlaştırıld�
 9. Hapis yalnız hapsedilenin yeteneğini ve ona yapılan saldırıları durdurur. Hapsedileni araştırma, koruma, gözetleme ve sahte delil normal işler.
 10. Kabadayı'nın intiharını Hekim önleyemez.
 11. Saldırıyı kim yaparsa Gözcü onu hedefin yanında görür: Fedai varsa Fedai, yoksa Zorba (ya da son kalan Müfteri).
-12. Kanlı'nın hedefi Ağa ya da Kadı olamaz. Hedef gündüz idamı dışında herhangi bir yolla ölürse Kanlı Soytarı'ya dönüşür.
+12. Kanlı'nın hedefi Ağa ya da Kadı olamaz. Hedef gündüz idamı dışında herhangi bir yolla ölürse Kanlı Maskara'ya dönüşür.
 13. Kanlı hedefini idam ettirince kazanır ve oyunda kalmaya devam eder; sonradan ölse de zaferi geçerlidir.
 
