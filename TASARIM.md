@@ -177,7 +177,7 @@ Saldırılar aynı anda gerçekleşmiş sayılır. Örneğin Kabadayı ile Yamya
 | Kabadayı bir Kasaba üyesini öldürür | Kabadayı sonraki gece intihar eder. |
 | Gözcü → Fedai'nin hedefi | Gözcü Fedai'nin ziyaretini öğrenir. |
 | Soytarı gündüz idam edilir | Soytarı kişisel zafer kazanır. |
-| Kanlı'nın hedefi gece ölür | Kanlı Soytarı'ya dönüşür. |
+| Kanlı'nın hedefi idam dışında ölür | Kanlı Soytarı'ya dönüşür. |
 
 ## 8. Oyuncu dağılımları
 
@@ -228,7 +228,7 @@ Oyun testlerinden sonra değişebilir. Kodda bu değerler tek bir ayar yerinde t
 | Yamyam'ın gece saldırılarına bağışıklığı | Yok |
 | Derviş'in kişisel koruması | Yok |
 | Soytarı'nın ölüm sonrası intikamı | Yok |
-| Kanlı'nın hedefi gece ölürse | Soytarı'ya dönüşür |
+| Kanlı'nın hedefi idam dışında ölürse | Soytarı'ya dönüşür |
 | İdam için gereken oy | Yaşayan oyuncuların oy gücünün salt çoğunluğu |
 | Kimse ölmeden geçen tur sayısı (beraberlik) | 3 |
 
